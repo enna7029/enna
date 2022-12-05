@@ -9,7 +9,7 @@ use Enna\Framework\Middleware\AllowCrossDomain;
 //    Route::rule('rule', 'Index/rule');
 //});
 
-//Route::miss('index/miss');
+Route::miss('index/miss');
 //
 //Route::domain('enna', function () {
 //    Route::get('test/:id', 'Index/test');
