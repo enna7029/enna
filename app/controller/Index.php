@@ -33,7 +33,7 @@ class Index extends BaseController
 
     public function miss()
     {
-        echo 'miss23232';
+        echo 'miss_测试';
     }
 
     public function allow()
