@@ -3,12 +3,13 @@
 namespace app\controller;
 
 use app\BaseController;
+use Enna\Framework\Facade\Log;
 
 class Index extends BaseController
 {
     public function index()
     {
-        echo 'Hello World!';
+        Log::record('这是最后一轮测试','test');
     }
 
     public function test($id)
