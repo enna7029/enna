@@ -4,12 +4,14 @@ namespace app\controller;
 
 use app\BaseController;
 use Enna\Framework\Facade\Log;
+use Enna\Framework\Facade\Cache;
 
 class Index extends BaseController
 {
     public function index()
     {
-        Log::record('这是最后一轮测试','test');
+        Cache::set('name',11111);
+        //Log::record('1212');
     }
 
     public function test($id)
